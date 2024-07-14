@@ -1,0 +1,30 @@
+{
+  "name": "taskflow.api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx --watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "Ícaro Teodoro Canuto",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "ts": "^0.2.2",
+    "tsc": "^2.0.4",
+    "tsx": "^4.16.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^5.16.1"
+  }
+}
